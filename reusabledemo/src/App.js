@@ -1,5 +1,6 @@
-import { Button } from './reusableComponents/Button';
+import { Button } from './reusableComponents/button/Button';
 import './App.css';
+import { Avatar } from './reusableComponents/avatar/Avatar';
 
 function App() {
 
@@ -11,6 +12,9 @@ function App() {
     <div className="App">
       <Button handleClick={logIt} label={'log to console'} type={'primary'} />
       <Button handleClick={logIt} label={'not passing type'} />
+      <Avatar type={'small'} image={'https://bit.ly/3DNmtbS'} alt={'profile pic'} />
+      <Avatar type={'normal'} image={'https://bit.ly/3DNmtbS'} alt={'profile pic'} />
+      <Avatar type={'large'} image={'https://bit.ly/3DNmtbS'} alt={'profile pic'} />
 
     </div>
   );
