@@ -1,6 +1,7 @@
 import { Button } from './reusableComponents/button/Button';
 import './App.css';
 import { Avatar } from './reusableComponents/avatar/Avatar';
+import { Hamburger } from './reusableComponents/hamburger/Hamburger';
 
 function App() {
 
@@ -15,6 +16,10 @@ function App() {
       <Avatar type={'small'} image={'https://bit.ly/3DNmtbS'} alt={'profile pic'} />
       <Avatar type={'normal'} image={'https://bit.ly/3DNmtbS'} alt={'profile pic'} />
       <Avatar type={'large'} image={'https://bit.ly/3DNmtbS'} alt={'profile pic'} />
+      <div className="menu">
+        <Hamburger />
+      </div>
+
 
     </div>
   );

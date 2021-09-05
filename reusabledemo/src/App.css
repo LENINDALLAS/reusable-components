@@ -3,3 +3,8 @@
   align-content: center;
   justify-content: center;
 }
+
+.menu {
+  position: relative;
+  left: 30%;
+}
